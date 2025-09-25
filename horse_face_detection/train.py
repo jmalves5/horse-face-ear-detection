@@ -11,7 +11,7 @@ os.makedirs(project_folder, exist_ok=True)
  
 # Training.
 results = model.train(
-   data=f'{project_folder}/HorseFaceDetection/data.yaml',
+   data=f'{project_folder}/Horse Face Detection.v1i.yolov8/data.yaml',
    imgsz=640,
    epochs=150,
    batch=16,

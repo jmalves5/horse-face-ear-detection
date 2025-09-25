@@ -8,9 +8,10 @@ model = YOLO("yolov8l_horse_ear_detection.pt")  # load a custom model
 
 # Validate the model
 metrics = model.val(
-    data=f'{project_folder}/HorseEarDetection/data.yaml',
+    data=f'{project_folder}/Horse Ear Detection.v2i.yolov8/data.yaml',
     imgsz=640,
-    project=project_folder
+    project=project_folder,
+    split="val"
 )
 
 print(" ")

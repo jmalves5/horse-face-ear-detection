@@ -1,4 +1,2 @@
-./horse_face_detection/HorseFaceDetection/**
-./horse_ear_detection/HorseEarDetection/**
-./horse_face_detection/HorseFaceDetection.v4-all-rgb.yolov8-*/**
-./horse_face_detection/HorseFaceDetection.v4-all-rgb.yolov8/**
+horse_ear_detection/Horse Ear Detection.v2i.yolov8/**
+horse_face_detection/Horse Face Detection.v1i.yolov8/** 

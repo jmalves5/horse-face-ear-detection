@@ -4,11 +4,12 @@ from pathlib import Path
 
 
 # Load a pretrained YOLOv8n model
-model = YOLO("/home/joao/workspace/horse-ear-detection/yolov8n_horse_ear_detection.pt")
+model = YOLO("/home/joao/horse-face-ear-detection/horse_ear_detection/yolov8l_horse_ear_detection.pt")
 
 # Run inference
 # Open the video file
-video_path = "/home/joao/workspace/EquinePainFaceDataset/CleanAnEquinePainFaceDataset/videos/original/S6.mp4"
+video_path = "/home/joao/Downloads/horse.mp4"
+
 
 my_file = Path(video_path)
 
