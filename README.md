@@ -22,15 +22,15 @@ Folder structure to run our code should look like this:
 ├── workspace
 │   ├── horse-face-ear-detection
 │     ├── horse-face-detection
-│        ├── train.py
-│        ├── test.py
-│        ├── val.py
-│        ├── ...
-│        ├── HorseFaceDetection.yolov8
-│          ├──── train
-│          ├──── test
-│          ├──── val
-│          ├──── data.yaml
+│     │   ├── train.py
+│     │   ├── test.py
+│     │   ├── val.py
+│     │   ├── ...
+│     │   ├── HorseFaceDetection.yolov8
+│     │     ├──── train
+│     │     ├──── test
+│     │     ├──── val
+│     │     ├──── data.yaml
 │     ├── horse-ear-detection
 │        ├── train.py
 │        ├── test.py
