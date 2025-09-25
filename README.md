@@ -32,15 +32,15 @@ Folder structure to run our code should look like this:
 │     │     ├──── val
 │     │     ├──── data.yaml
 │     ├── horse-ear-detection
-│        ├── train.py
-│        ├── test.py
-│        ├── val.py
-│        ├── ...
-│        ├── HorseEarDetection.yolov8
-│          ├──── train
-│          ├──── test
-│          ├──── val
-│          ├──── data.yaml
+│         ├── train.py
+│         ├── test.py
+│         ├── val.py
+│         ├── ...
+│         ├── HorseEarDetection.yolov8
+│           ├──── train
+│           ├──── test
+│           ├──── val
+│           ├──── data.yaml
 ```
 
 ## Running training and inference
