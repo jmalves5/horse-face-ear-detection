@@ -54,7 +54,7 @@ NOTE: You need to adapt the paths to you environment.
 python3 infer_face_then_ear.py
 ```
 
-This script uses both models and writes results to mp4
+This script uses both models and writes results to mp4.
 
 ### Train
 
