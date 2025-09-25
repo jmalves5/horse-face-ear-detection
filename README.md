@@ -49,9 +49,17 @@ Once you have setup you folders as described above you can run from each of the 
 
 NOTE: You need to adapt the paths to you environment.
 
+### Infer both face and ear
+```
+python3 infer_face_then_ear.py
+```
+
+This script uses both models and writes results to mp4
+
 ### Train
 
 ```
+cd horse_X_detection
 python3 train.py
 ```
 
@@ -63,8 +71,10 @@ We supply the model weights for detection using YOLOv8n in `yolov8l_horse_X_dete
 
 Then to perform inference you can run the following adapting the paths to where you have setup you inference data:
 ```
+cd horse_X_detection
 python3 infer.py
 ```
+
 
 ### For AMD gpus run after installing requirements.txt to get ROCM compatible torch/vision/audio: 
 - `pip uninstalling torch torchvision torchaudio` 
